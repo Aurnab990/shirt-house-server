@@ -9,7 +9,8 @@
 "routes": [
     {
         "src": "/(.*)",
-        "dest": "/pages/$1",
+        "destination": "/",
+        "dest": "/",
         "methods": ["GET", "POST", "DELETE", "PATCH", "OPTIONS"]
     }
 ]
